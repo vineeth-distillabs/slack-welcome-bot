@@ -16,7 +16,7 @@ const getWelcomeMessage = (userName) => {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: `Hey ${userName}! 👋\n\nWelcome to Distill Labs - excited to have you here!\n\nHere's your quick start guide:`
+          text: `Hey ${userName}! 👋\n\nWelcome to distill labs - excited to have you here!\n\nHere's your quick start guide:`
         }
       },
       {
