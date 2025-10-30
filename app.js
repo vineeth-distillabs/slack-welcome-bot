@@ -23,7 +23,7 @@ const getWelcomeMessage = (userName) => {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "✨ Say hello in <#introductions>\n🔗 Get started: https://app.distillabs.ai/\n📖 Explore docs: https://docs.distillabs.ai/\n🆘 Need help? Ask in <#support>"
+          text: "✨ Say hello in <#C09P07LF45D|introductions>\n🔗 Get started: https://app.distillabs.ai/\n📖 Explore docs: https://docs.distillabs.ai/\n🆘 Need help? Ask in <#C093WMCLP34|support>"
         }
       },
       {
