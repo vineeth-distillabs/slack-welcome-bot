@@ -16,21 +16,59 @@ const getWelcomeMessage = (userName) => {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: `Hey ${userName}! 👋\n\nWelcome to distill labs - excited to have you here!\n\nHere's your quick start guide:`
+          text: `Hey ${userName}! 👋\n\nWelcome to *distil labs* - excited to have you here!`
         }
       },
       {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "✨ Say hello in <#C09P07LF45D|introductions>\n🔗 Get started: https://app.distillabs.ai/\n📖 Explore docs: https://docs.distillabs.ai/\n🆘 Need help? Ask in <#C093WMCLP34|support>"
+          text: "*Here's your quick start guide:*"
         }
       },
       {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "Can't wait to see what you build! 🚀"
+          text: "✨ Say hello in <#C09P07LF45D|introductions>"
+        }
+      },
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: "🚀 *Get started with the app*\n<https://app.distillabs.ai/|Launch distil labs app>"
+        }
+      },
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: "⚡ *Get started with the API*\n<https://docs.distillabs.ai/getting-started/overview#minimal-example|View API quickstart>"
+        }
+      },
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: "📖 *Full documentation*\n<https://docs.distillabs.ai/|Explore our docs>"
+        }
+      },
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: "🆘 *Need help?*\nAsk in <#C093WMCLP34|support> - we're here to help!"
+        }
+      },
+      {
+        type: "divider"
+      },
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: "Can't wait to see what you build! 🎉"
         }
       }
     ]
